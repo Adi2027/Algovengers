@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces Blitz Cup 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://codeforces.com/s/13567/images/codeforces-sponsored-by-ton.png" alt="Codeforces Logo" class="logo-img">
+        </div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="top.html">TOP</a>
+            <a href="catalog.html">CATALOG</a>
+            <a href="contest.html">CONTESTS</a>
+            <a href="gym.html">GYM</a>
+            <a href="#">PROBLEMSET</a>
+            <a href="#">GROUPS</a>
+            <a href="#">RATING</a>
+            <a href="#">EDU</a>
+            <a href="#">API</a>
+            <a href="#">CALENDAR</a>
+            <a href="#">HELP</a>
+            <a href="#">RAYAN 🏆</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search">
+                <button onclick="search()"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+        <div class="auth">
+            <a href="#">Enter</a> | <a href="#">Register</a>
+            <button id="themeToggle" onclick="toggleTheme()">Toggle Theme</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contest-info">
+            <h1>Codeforces Blitz Cup 2025</h1>
+            <p class="author">By <a href="#">KAN</a>, 32 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+            <p>Hi Codeforces!</p>
+            <p>As announced earlier, we're holding an individual competition, the Codeforces Blitz Cup 2025, to celebrate 15 years of Codeforces. The tournament features PvP matches in a novel Blitz format where every second (literally!) counts. In a 40-minute match, the opponents rush to solve each consecutive problem quicker than the next one needs to come up with a correct solution, think over the optimal implementation, and code cleanly; only the first one to submit a problem correctly claims the points.</p>
+            <p><a href="#" class="blitz-rules">Complete Blitz rules</a></p>
+            <table class="submissions">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>When</th>
+                        <th>Who</th>
+                        <th>Problem</th>
+                        <th>Lang</th>
+                        <th>Verdict</th>
+                        <th>Time</th>
+                        <th>Memory</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>309676807</td>
+                        <td>00:05:58</td>
+                        <td><a href="#">244mqh</a></td>
+                        <td><a href="#">B - Flya and Homework</a></td>
+                        <td>C++ (GCC 14-64) <span class="points">14.64 points</span></td>
+                        <td><span class="accepted">Accepted</span></td>
+                        <td>93 ms</td>
+                        <td>1600 KB</td>
+                    </tr>
+                    <tr>
+                        <td>309676809</td>
+                        <td>00:05:59</td>
+                        <td><a href="#">aryanc403</a></td>
+                        <td><a href="#">B - Flya and Homework</a></td>
+                        <td>C++ (GCC 14-64) <span class="points">14.64 points</span></td>
+                        <td><span class="accepted">Accepted</span></td>
+                        <td>77 ms</td>
+                        <td>100 KB</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>We’ve selected 64 strong participants who competed against each other in a single-elimination bracket. The first round has just concluded, and we’ve already seen both head-to-head battles and incredible comebacks. You can eliminate some of the exciting scenarios of Round 1 in the streams section. Complete results (also shown below).</p>
+            <p><a href="#" class="results-link">Results of Round 1</a></p>
+            <ul>
+                <li><a href="#">TheScrass3</a> : 30 <a href="#">conqueror of tourist</a> Thursday, March 6, 2025 at 04:40 UTC+8 <a href="#" class="scoreboard">Scoreboard</a></li>
+                <li><a href="#">Andreasay</a> : 0:45 <a href="#">Geothermal</a> Thursday, March 6, 2025 at 18:15 UTC+8 <a href="#" class="scoreboard">Scoreboard</a></li>
+                <li><a href="#">TAIYANGFENG</a> : 0:23 <a href="#">Golovano3:39</a> Thursday, March 6, 2025 at 19:30 UTC+8 <a href="#" class="scoreboard">Scoreboard</a></li>
+                <li><a href="#">lexiyv</a> : 3:20 <a href="#">errorgon</a> Thursday, March 6, 2025 at 20:30 UTC+8 <a href="#" class="scoreboard">Scoreboard</a></li>
+                <li><a href="#">jonathanvinas</a> : 15: 8 <a href="#">Enor</a> Thursday, March 6, 2025 at 20:30 UTC+8 <a href="#" class="scoreboard">Scoreboard</a></li>
+            </ul>
+        </section>
+
+        <aside>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('pay-attention')"><i class="fas fa-chevron-down"></i> Pay attention</h3>
+                <div id="pay-attention" class="content">
+                    <p>Before contest</p>
+                    <p>XIX Open Olympiad in Informatics - Final Stage. Day 1 (Unrated). Online Mirror. [0] Rules)</p>
+                    <p id="timer">00:39:11 <a href="#">Register now</a></p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('dynamic-programming')"><i class="fas fa-chevron-down"></i> Dynamic Programming — Topic Stream</h3>
+                <div id="dynamic-programming" class="content">
+                    <p>By <a href="#">Shayan</a></p>
+                    <p>Before stream 29:34:09 <a href="#">View all</a></p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('top-rated')"><i class="fas fa-chevron-down"></i> Top rated</h3>
+                <div id="top-rated" class="content">
+                    <table class="ratings">
+                        <thead>
+                            <tr><th>#</th><th>User</th><th>Rating</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td><a href="#">tourist</a></td><td>3857</td></tr>
+                            <tr><td>2</td><td><a href="#">jiangly</a></td><td>3747</td></tr>
+                            <tr><td>3</td><td><a href="#">orzdevinwang</a></td><td>3706</td></tr>
+                            <tr><td>4</td><td><a href="#">jdai0815</a></td><td>3682</td></tr>
+                            <tr><td>5</td><td><a href="#">ksun48</a></td><td>3591</td></tr>
+                            <tr><td>6</td><td><a href="#">gamegame</a></td><td>3477</td></tr>
+                            <tr><td>7</td><td><a href="#">Beng</a></td><td>3468</td></tr>
+                            <tr><td>8</td><td><a href="#">Radeoosh</a></td><td>3463</td></tr>
+                            <tr><td>9</td><td><a href="#">ecnerwala</a></td><td>3451</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="sidebar-item chat-section">
+                <h3 onclick="toggleSection('chat')"><i class="fas fa-chevron-down"></i> Live Chat</h3>
+                <div id="chat" class="content">
+                    <div class="chat-messages" id="chatMessages">
+                        <p><strong>user1:</strong> Good luck everyone!</p>
+                        <p><strong>user2:</strong> This problem is tough!</p>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="chatInput" placeholder="Type a message...">
+                        <button onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Codeforces. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Extracted from inline <style> tags */
+._CatalogHistorySidebarFrame_historyDiv {
+    text-align: justify-all;
+    font-size: 1.3rem;
+}
+
+._CatalogHistorySidebarFrame_item {
+    margin: 1em;
+}
+
+._CatalogHistorySidebarFrame_name {
+    font-weight: bold;
+    color: #3B5998;
+}
+
+/* Placeholder for external stylesheets (simplified assumptions) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.roundbox {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+}
+
+.menu-box {
+    margin: 10px 0;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-list li {
+    margin-right: 15px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.menu-list .current a {
+    font-weight: bold;
+    color: #003087;
+}
+
+.search {
+    padding: 5px;
+    width: 200px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+}
+
+.caption.titled {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rated-user {
+    font-weight: bold;
+}
+
+.user-red { color: #ff0000; }
+.user-orange { color: #ff8800; }
+.user-violet { color: #aa00aa; }
+.user-blue { color: #0000ff; }
+.user-gray { color: #888888; }
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sep {
+    margin: 0 10px;
+}

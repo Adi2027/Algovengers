@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces - Top</title>
+    <link rel="stylesheet" href="styletop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://codeforces.com/s/13567/images/codeforces-sponsored-by-ton.png" alt="Codeforces Logo" class="logo-img">
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="top.html">TOP</a>
+            <a href="catalog.html">CATALOG</a>
+            <a href="contest.html">CONTESTS</a>
+            <a href="gym.html">GYM</a>
+            <a href="#">PROBLEMSET</a>
+            <a href="#">GROUPS</a>
+            <a href="#">RATING</a>
+            <a href="#">EDU</a>
+            <a href="#">API</a>
+            <a href="#">CALENDAR</a>
+            <a href="#">HELP</a>
+            <a href="#">RAYAN 🏆</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search">
+                <button onclick="search()"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+        <div class="auth">
+            <a href="#">Enter</a> | <a href="#">Register</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="blog-posts">
+            <h1>Top Recent Blog Posts</h1>
+            <article>
+                <h2><a href="#">Chinese OFFICIAL rounds are of very high quality</a></h2>
+                <p>By <a href="#">doraimota</a>, history, 25 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>Everyone should virtually participate in former Chinese Official Rounds, their problem of very good quality...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+86 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">Bienvenido@ al curso!</a></h2>
+                <p>By <a href="#">kovaxis</a>, 29 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>¡Hola! Bienvenido/as al curso IC2652, Taller de Programación Avanzada...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+25 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">Invitation to TheForces Round #40 (Maths-Forces, TheForces Rated, Prizes!)</a></h2>
+                <p>By <a href="#">wuhudsm</a>, history, 25 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>Hello, Codeforces! We are happy to invite you to TheForces Round #40 (Maths-Forces)...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+20 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">HOW 2041A is 1300</a></h2>
+                <p>By <a href="#">Baiterr</a>, history, 37 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p><a href="https://codeforces.com/problemset/problem/2041/A">https://codeforces.com/problemset/problem/2041/A</a> how this problem is 1300 it should be 800...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+16 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">Please share problems related to dijsktra algorithm and its modifications</a></h2>
+                <p>By <a href="#">sudheerreddy14</a>, history, 3 days ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>Please share problems related to dijsktra algorithm and its modifications, please mention problem link and its rating...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+15 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">#21 in Div. 2 Contest Cheating</a></h2>
+                <p>By <a href="#">gatmani</a>, 2 days ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>Today I am here to expose cpp200iq for cheating. He recently placed #21 in the last Div. 2 contest...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+32 ▼</div>
+            </article>
+            <article>
+                <h2><a href="#">Request to make BlitzCup information more public</a></h2>
+                <p>By <a href="#">YumayukiMiuki</a>, history, 47 hours ago <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag" class="flag"></p>
+                <p>...</p>
+                <p><a href="#">Full text and comments »</a></p>
+                <div class="vote">+3 ▼</div>
+            </article>
+        </section>
+
+        <aside>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('pay-attention')"><i class="fas fa-chevron-down"></i> Pay attention</h3>
+                <div id="pay-attention" class="content">
+                    <p>Before contest</p>
+                    <p>XIX Open Olympiad in Informatics - Final Stage. Day 1 (Unrated). Online Mirror. [0] Rules)</p>
+                    <p>00:27:23 <a href="#">Register now</a></p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('dynamic-programming')"><i class="fas fa-chevron-down"></i> Dynamic Programming — Topic Stream</h3>
+                <div id="dynamic-programming" class="content">
+                    <p>By <a href="#">Shayan</a></p>
+                    <p>Before stream 29:22:22 <a href="#">View all</a></p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('top-rated')"><i class="fas fa-chevron-down"></i> Top rated</h3>
+                <div id="top-rated" class="content">
+                    <table class="ratings">
+                        <thead>
+                            <tr><th>#</th><th>User</th><th>Rating</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td><a href="#">tourist</a></td><td>3857</td></tr>
+                            <tr><td>2</td><td><a href="#">jiangly</a></td><td>3747</td></tr>
+                            <tr><td>3</td><td><a href="#">orzdevinwang</a></td><td>3706</td></tr>
+                            <tr><td>4</td><td><a href="#">jdai0815</a></td><td>3682</td></tr>
+                            <tr><td>5</td><td><a href="#">ksun48</a></td><td>3591</td></tr>
+                            <tr><td>6</td><td><a href="#">gamegame</a></td><td>3477</td></tr>
+                            <tr><td>7</td><td><a href="#">Beng</a></td><td>3468</td></tr>
+                            <tr><td>8</td><td><a href="#">Radeoosh</a></td><td>3463</td></tr>
+                            <tr><td>9</td><td><a href="#">ecnerwala</a></td><td>3451</td></tr>
+                            <tr><td>10</td><td><a href="#">heuristic</a></td><td>3431</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('find-user')"><i class="fas fa-chevron-down"></i> Find user</h3>
+                <div id="find-user" class="content">
+                    <input type="text" id="userHandle" placeholder="Handle:">
+                    <button onclick="findUser()">Find</button>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('recent-actions')"><i class="fas fa-chevron-down"></i> Recent actions</h3>
+                <div id="recent-actions" class="content">
+                    <ul>
+                        <li><a href="#">doraimota — Chinese OFFICIAL rounds are of very high quality</a></li>
+                        <li><a href="#">wuhudsm — Invitation to TheForces Round #40 (Maths-Forces, TheForces Rated, Prizes!)</a></li>
+                        <li><a href="#">Baiterr — HOW 2041A is 1300</a></li>
+                        <li><a href="#">sudheerreddy14 — Please share problems related to dijsktra algorithm and its modifications</a></li>
+                        <li><a href="#">gatmani — #21 in Div. 2 Contest Cheating</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <h3 onclick="toggleSection('top-contributors')"><i class="fas fa-chevron-down"></i> Top contributors</h3>
+                <div id="top-contributors" class="content">
+                    <table class="contributors">
+                        <thead>
+                            <tr><th>#</th><th>User</th><th>Contrib.</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td><a href="#">cry</a></td><td>165</td></tr>
+                            <tr><td>2</td><td><a href="#">jst-this-ft</a></td><td>161</td></tr>
+                            <tr><td>3</td><td><a href="#">Qingyu</a></td><td>160</td></tr>
+                            <tr><td>4</td><td><a href="#">Dominater069</a></td><td>158</td></tr>
+                            <tr><td>5</td><td><a href="#">atcoder_official</a></td><td>157</td></tr>
+                            <tr><td>6</td><td><a href="#">adamant</a></td><td>155</td></tr>
+                            <tr><td>7</td><td><a href="#">Um_nik</a></td><td>151</td></tr>
+                            <tr><td>8</td><td><a href="#">djm03178</a></td><td>150</td></tr>
+                            <tr><td>9</td><td><a href="#">luogu_official</a></td><td>149</td></tr>
+                            <tr><td>10</td><td><a href="#">awoo</a></td><td>148</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Codeforces. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+    <script src="scriptTop.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+body {
+    font-family: 'Verdana', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a5dab;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #003087;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f0f0f0;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #e0e0e0;
+}
+
+.auth a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #1a5dab;
+    font-size: 14px;
+}
+
+.auth a:hover {
+    color: #003087;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-posts {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.blog-posts h1 {
+    color: #1a5dab;
+    margin-top: 0;
+}
+
+article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+article h2 a {
+    color: #1a5dab;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+.flag {
+    height: 15px;
+    vertical-align: middle;
+}
+
+.vote {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+aside {
+    flex: 1;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-item h3 i {
+    margin-right: 10px;
+}
+
+.sidebar-item .content {
+    padding: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+.sidebar-item .content a {
+    color: #1a5dab;
+    text-decoration: none;
+}
+
+.sidebar-item .content a:hover {
+    text-decoration: underline;
+}
+
+.ratings, .contributors {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.ratings th, .ratings td, .contributors th, .contributors td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.ratings th, .contributors th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#find-user .content {
+    display: flex;
+    gap: 5px;
+}
+
+#find-user input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#find-user button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#find-user button:hover {
+    background-color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
+footer a {
+    color: #1a5dab;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .blog-posts, aside {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .search-bar {
+        margin: 10px 0;
+    }
+}
